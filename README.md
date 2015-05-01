@@ -1,4 +1,5 @@
-# python-geocoder
+# Python Geocoder
+### via Google Maps Geocoding API and pygeocoder
 
 ####Required Python Libraries:
 * csv
