@@ -44,7 +44,7 @@ from pygeocoder import Geocoder
 #This code block is the first iteration of production, change to full file for "real" results, currently intakes a 2 row sample
 
 input_file  = open('WIC_SIGNUP_LOCATIONS_NO_GEODATA_TEST.csv', 'rU') #Open your .csv file
-output_file = open('WIC_LOCS_GEOCODED.csv', 'w') #Make an empty .csv This is where your geocodes will end up.
+output_file = open('WIC_SIGNUP_LOCATIONS_GEOCODED.csv', 'w') #Make an empty .csv This is where your geocodes will end up.
 data        = csv.reader(input_file)        #Read in the raw csv using the csv library "reader" function
 
 csv.writer(output_file).writerow(['location_name','full address','number','street','city','state','zip','county','lat','long'])
